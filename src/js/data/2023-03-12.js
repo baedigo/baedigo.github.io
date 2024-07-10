@@ -8,7 +8,6 @@ dataSet[dataSetVersion].options = [
     tooltip: "Check this to restrict to certain groups.",
     checked: false,
     sub: [
-      {name: "As One", key: "As One"},
       {name: "PAPAYA", key: "PAPAYA"},
       {name: "S.E.S.", key: "S.E.S."},
       {name: "2NE1", key: "2NE1"},
@@ -137,14 +136,6 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "As One Crystal",
-        img: "EGYUvjY.jpeg",
-        opts: {
-            group: ["As One"],
-            gen: ["gen1"]
-        }
-    },
-    {
         name: "S.E.S. Eugene",
         img: "qFgTDvT.jpeg",
         opts: {
@@ -213,14 +204,6 @@ dataSet[dataSetVersion].characterData = [
         img: "CG9dMHG.jpeg",
         opts: {
             group: ["soloist"],
-            gen: ["gen1"]
-        }
-    },
-    {
-        name: "As One Min",
-        img: "hoFNepH.jpeg",
-        opts: {
-            group: ["As One"],
             gen: ["gen1"]
         }
     },
