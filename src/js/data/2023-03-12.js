@@ -8,33 +8,73 @@ dataSet[dataSetVersion].options = [
     tooltip: "Check this to restrict to certain groups.",
     checked: false,
     sub: [
+      {name: "As One", key: "As One"},
+      {name: "PAPAYA", key: "PAPAYA"},
+      {name: "S.E.S.", key: "S.E.S."},
       {name: "2NE1", key: "2NE1"},
+      {name: "4Minute", key: "4Minute"},
+      {name: "9Muses", key: "9Muses"},
       {name: "AOA", key: "AOA"},
+      {name: "After School", key: "After School"},
       {name: "Apink", key: "Apink"},
+      {name: "Brave Girls", key: "Brave Girls"},
+      {name: "Brown Eyed Girls", key: "Brown Eyed Girls"},
+      {name: "Crayon Pop", key: "Crayon Pop"},
+      {name: "Dal★Shabet", key: "Dal★Shabet"},
+      {name: "Davichi", key: "Davichi"},
       {name: "EXID", key: "EXID"},
+      {name: "Fiestar", key: "Fiestar"},
+      {name: "Girl's Day", key: "Girl's Day"},
       {name: "Girls' Generation", key: "Girls' Generation"},
+      {name: "Hellovenus", key: "Hellovenus"},
+      {name: "Kara", key: "Kara"},
+      {name: "Miss A", key: "Miss A"},
+      {name: "Rainbow", key: "Rainbow"},
+      {name: "SPICA", key: "SPICA"},
+      {name: "Secret", key: "Secret"},
+      {name: "SeeYa", key: "SeeYa"},
       {name: "Sistar", key: "Sistar"},
+      {name: "Stellar", key: "Stellar"},
+      {name: "Sunny Hill", key: "Sunny Hill"},
+      {name: "T-ara", key: "T-ara"},
+      {name: "Wonder Girls", key: "Wonder Girls"},
       {name: "f(x)", key: "f(x)"},
       {name: "Alice", key: "Alice"},
+      {name: "April", key: "April"},
+      {name: "BESTie", key: "BESTie"},
       {name: "Blackpink", key: "Blackpink"},
+      {name: "Busters", key: "Busters"},
       {name: "CLC", key: "CLC"},
+      {name: "Dia", key: "Dia"},
       {name: "Dreamcatcher", key: "Dreamcatcher"},
       {name: "GFriend", key: "GFriend"},
+      {name: "Gugudan", key: "Gugudan"},
+      {name: "I.O.I", key: "I.O.I"},
+      {name: "Laboum", key: "Laboum"},
+      {name: "Ladies' code", key: "Ladies' code"},
+      {name: "Lovelyz", key: "Lovelyz"},
       {name: "Mamamoo", key: "Mamamoo"},
       {name: "Momoland", key: "Momoland"},
       {name: "Oh My Girl", key: "Oh My Girl"},
+      {name: "Pristin", key: "Pristin"},
       {name: "Red Velvet", key: "Red Velvet"},
+      {name: "Sonamoo", key: "Sonamoo"},
       {name: "Twice", key: "Twice"},
       {name: "WJSN", key: "WJSN"},
+      {name: "Weki Meki", key: "Weki Meki"},
       {name: "(G)I-dle", key: "(G)I-dle"},
       {name: "Aespa", key: "Aespa"},
       {name: "Billlie", key: "Billlie"},
       {name: "CLASS:y", key: "CLASS:y"},
+      {name: "CSR", key: "CSR"},
       {name: "Cherry Bullet", key: "Cherry Bullet"},
+      {name: "DreamNote", key: "DreamNote"},
       {name: "Everglow", key: "Everglow"},
       {name: "Fromis 9", key: "Fromis 9"},
       {name: "GOT the beat", key: "GOT the beat"},
+      {name: "GWSN", key: "GWSN"},
       {name: "H1-KEY", key: "H1-KEY"},
+      {name: "ILY:1", key: "ILY:1"},
       {name: "ITZY", key: "ITZY"},
       {name: "IVE", key: "IVE"},
       {name: "IZ*ONE", key: "IZ*ONE"},
@@ -43,6 +83,7 @@ dataSet[dataSetVersion].options = [
       {name: "LIMELIGHT", key: "LIMELIGHT"},
       {name: "LOONA", key: "LOONA"},
       {name: "Lightsum", key: "Lightsum"},
+      {name: "Nature", key: "Nature"},
       {name: "NewJeans", key: "NewJeans"},
       {name: "Nmixx", key: "Nmixx"},
       {name: "Pixy", key: "Pixy"},
@@ -50,15 +91,243 @@ dataSet[dataSetVersion].options = [
       {name: "Rocket Punch", key: "Rocket Punch"},
       {name: "Secret Number", key: "Secret Number"},
       {name: "StayC", key: "StayC"},
+      {name: "Tri.be", key: "Tri.be"},
+      {name: "UNI.T", key: "UNI.T"},
       {name: "Weeekly", key: "Weeekly"},
       {name: "bugAboo", key: "bugAboo"},
+      {name: "mimiirose", key: "mimiirose"},
       {name: "tripleS", key: "tripleS"},
       {name: "woo!ah!", key: "woo!ah!"},
       {name: "Soloists", key: "soloist"}
     ]
   },
+  {
+    name: "Filter by generation",
+    key: "gen",
+    tooltip: "Check this to restrict groups by generation.",
+    checked: false,
+    sub: [ { name: "Gen 1", key: "gen1" }, { name: "Gen 2", key: "gen2" }, { name: "Gen 3", key: "gen3" }, { name: "Gen 4", key: "gen4" }
+    ]
+  }
 ];
+
 dataSet[dataSetVersion].characterData = [
+    {
+        name: "S.E.S. Bada",
+        img: "EJAI9ha.jpeg",
+        opts: {
+            group: ["S.E.S."],
+            gen: ["gen1"]
+        }
+    },
+    {
+        name: "Baek Jiyoung",
+        img: "oxkOVz6.jpeg",
+        opts: {
+            group: ["soloist"],
+            gen: ["gen1"]
+        }
+    },
+    {
+        name: "BoA",
+        img: "xesVuX8.jpeg",
+        opts: {
+            group: ["soloist"],
+            gen: ["gen1"]
+        }
+    },
+    {
+        name: "As One Crystal",
+        img: "EGYUvjY.jpeg",
+        opts: {
+            group: ["As One"],
+            gen: ["gen1"]
+        }
+    },
+    {
+        name: "S.E.S. Eugene",
+        img: "qFgTDvT.jpeg",
+        opts: {
+            group: ["S.E.S."],
+            gen: ["gen1"]
+        }
+    },
+    {
+        name: "PAPAYA Go Naeun",
+        img: "69gH9za.jpeg",
+        opts: {
+            group: ["PAPAYA"],
+            gen: ["gen1"]
+        }
+    },
+    {
+        name: "Gummy",
+        img: "31YllBl.png",
+        opts: {
+            group: ["soloist"],
+            gen: ["gen1"]
+        }
+    },
+    {
+        name: "Jaurim Kim Yuna",
+        img: "cJaGs9h.jpeg",
+        opts: {
+            group: ["Jaurim"],
+            gen: ["gen1"]
+        }
+    },
+    {
+        name: "Lee Soo Young",
+        img: "5dNDrln.jpeg",
+        opts: {
+            group: ["soloist"],
+            gen: ["gen1"]
+        }
+    },
+    {
+        name: "Lee Sora",
+        img: "oG8QF7S.jpeg",
+        opts: {
+            group: ["soloist"],
+            gen: ["gen1"]
+        }
+    },
+    {
+        name: "Lee Sun Hee",
+        img: "0KsQZYo.jpeg",
+        opts: {
+            group: ["soloist"],
+            gen: ["gen1"]
+        }
+    },
+    {
+        name: "Lena Park",
+        img: "Vsau6I0.jpeg",
+        opts: {
+            group: ["soloist"],
+            gen: ["gen1"]
+        }
+    },
+    {
+        name: "Lyn",
+        img: "CG9dMHG.jpeg",
+        opts: {
+            group: ["soloist"],
+            gen: ["gen1"]
+        }
+    },
+    {
+        name: "As One Min",
+        img: "hoFNepH.jpeg",
+        opts: {
+            group: ["As One"],
+            gen: ["gen1"]
+        }
+    },
+    {
+        name: "Park Jiyoon",
+        img: "MZGbDVJ.jpeg",
+        opts: {
+            group: ["soloist"],
+            gen: ["gen1"]
+        }
+    },
+    {
+        name: "S.E.S. Shoo",
+        img: "gf48iHk.png",
+        opts: {
+            group: ["S.E.S."],
+            gen: ["gen1"]
+        }
+    },
+    {
+        name: "Yangpa",
+        img: "1QKactI.jpeg",
+        opts: {
+            group: ["soloist"],
+            gen: ["gen1"]
+        }
+    },
+    {
+        name: "Wonder Girls Ahn Sohee",
+        img: "qMPi1sx.jpeg",
+        opts: {
+            group: ["Wonder Girls"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Dal\u2605Shabet Ahyoung",
+        img: "u05uzw4.jpeg",
+        opts: {
+            group: ["Dal\u2605Shabet"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Ailee",
+        img: "q0TWy1J.jpeg",
+        opts: {
+            group: ["soloist"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Hellovenus Alice",
+        img: "L80EqJw.jpeg",
+        opts: {
+            group: ["Hellovenus"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "f(x) Amber",
+        img: "6B5Oi7W.jpeg",
+        opts: {
+            group: ["f(x)"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "T-ara Areum",
+        img: "ykZoQ4f.png",
+        opts: {
+            group: ["T-ara"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "After School Bekah",
+        img: "7lgqVeu.png",
+        opts: {
+            group: ["After School"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "9Muses Bini",
+        img: "K970Pu4.png",
+        opts: {
+            group: ["9Muses"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Sunny Hill Bitna",
+        img: "LPLDlv6.png",
+        opts: {
+            group: ["Sunny Hill"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "SPICA BoA",
+        img: "wcFNldT.jpeg",
+        opts: {
+            group: ["SPICA"],
+            gen: ["gen2"]
+        }
+    },
     {
         name: "Apink Bomi",
         img: "FHllnqY.jpeg",
@@ -76,10 +345,34 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
+        name: "SeeYa Boram",
+        img: "UG2vBKK.jpeg",
+        opts: {
+            group: ["SeeYa"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "T-ara Boram",
+        img: "IGHUvD6.jpeg",
+        opts: {
+            group: ["T-ara"],
+            gen: ["gen2"]
+        }
+    },
+    {
         name: "2NE1 CL",
         img: "6Qzsiwy.jpeg",
         opts: {
             group: ["2NE1"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Fiestar Cao Lu",
+        img: "CPb4yFd.png",
+        opts: {
+            group: ["Fiestar"],
             gen: ["gen2"]
         }
     },
@@ -100,6 +393,14 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
+        name: "Crayon Pop Choa",
+        img: "pL4n6X9.png",
+        opts: {
+            group: ["Crayon Pop"],
+            gen: ["gen2"]
+        }
+    },
+    {
         name: "Apink Chorong",
         img: "Nj8CLUy.jpeg",
         opts: {
@@ -108,10 +409,178 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
+        name: "Dal\u2605Shabet Dalsooobin",
+        img: "6piZqXS.jpeg",
+        opts: {
+            group: ["Dal\u2605Shabet"],
+            gen: ["gen2"]
+        }
+    },
+    {
         name: "Sistar Dasom",
         img: "MWpFZoW.png",
         opts: {
             group: ["Sistar"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "After School E-Young",
+        img: "csrUlVG.png",
+        opts: {
+            group: ["After School"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Crayon Pop Ellin",
+        img: "wmHfcsR.png",
+        opts: {
+            group: ["Crayon Pop"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "9Muses Euaerin",
+        img: "Dc3VJAA.png",
+        opts: {
+            group: ["9Muses"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "9Muses Eunji",
+        img: "IPadsTs.png",
+        opts: {
+            group: ["9Muses"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Brave Girls Eunji",
+        img: "lB3n0ZP.jpeg",
+        opts: {
+            group: ["Brave Girls"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Sunny Hill Eunju",
+        img: "cgnfhWT.png",
+        opts: {
+            group: ["Sunny Hill"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "T-ara Eunjung",
+        img: "26nxfOZ.png",
+        opts: {
+            group: ["T-ara"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Brave Girls Eunyoung",
+        img: "rNZ7IZz.png",
+        opts: {
+            group: ["Brave Girls"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Miss A Fei",
+        img: "lP6qqL5.jpeg",
+        opts: {
+            group: ["Miss A"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "G.na",
+        img: "TiQJcab.jpeg",
+        opts: {
+            group: ["soloist"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Brown Eyed Girls Gain",
+        img: "rWdWerY.png",
+        opts: {
+            group: ["Brown Eyed Girls"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "4Minute Gayoon",
+        img: "kd2BuSf.png",
+        opts: {
+            group: ["4Minute"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Stellar Gayoung",
+        img: "dbKKYym.png",
+        opts: {
+            group: ["Stellar"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Kara Goo Hara",
+        img: "grCkR4r.jpeg",
+        opts: {
+            group: ["Kara"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Crayon Pop Gummi",
+        img: "un1AjHv.png",
+        opts: {
+            group: ["Crayon Pop"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "9Muses Gyeongree",
+        img: "qMouRtF.jpeg",
+        opts: {
+            group: ["9Muses"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "SeeYa Gyuri",
+        img: "GopQZk1.jpeg",
+        opts: {
+            group: ["SeeYa"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Wonder Girls HA:TFELT",
+        img: "iEJtb8V.jpeg",
+        opts: {
+            group: ["Wonder Girls"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "EXID Haeryung",
+        img: "SHXJ1rh.png",
+        opts: {
+            group: ["EXID"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Secret Hana",
+        img: "t5SBTjU.png",
+        opts: {
+            group: ["Secret"],
             gen: ["gen2"]
         }
     },
@@ -132,10 +601,66 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
+        name: "Brave Girls Hayun",
+        img: "dDBDWKs.png",
+        opts: {
+            group: ["Brave Girls"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "T-ara Hwayoung",
+        img: "rvFXwzi.png",
+        opts: {
+            group: ["T-ara"],
+            gen: ["gen2"]
+        }
+    },
+    {
         name: "AOA Hyejeong",
         img: "okjVFkD.jpeg",
         opts: {
             group: ["AOA"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "9Muses Hyemi",
+        img: "JSDwiDr.jpeg",
+        opts: {
+            group: ["9Muses"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Stellar Hyeoeun",
+        img: "aDKZiIc.jpeg",
+        opts: {
+            group: ["Stellar"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Brave Girls Hyeran",
+        img: "DSIOLO0.jpeg",
+        opts: {
+            group: ["Brave Girls"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Girl's Day Hyeri",
+        img: "gzAFqGO.jpeg",
+        opts: {
+            group: ["Girl's Day"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Wonder Girls Hyerim",
+        img: "9r2baV5.png",
+        opts: {
+            group: ["Wonder Girls"],
             gen: ["gen2"]
         }
     },
@@ -164,10 +689,82 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
+        name: "T-ara Hyomin",
+        img: "kGwMkpR.jpeg",
+        opts: {
+            group: ["T-ara"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Wonder Girls Hyuna",
+        img: "IQwVrnE.jpeg",
+        opts: {
+            group: ["Wonder Girls"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Rainbow Hyunyoung",
+        img: "vAmAcai.png",
+        opts: {
+            group: ["Rainbow"],
+            gen: ["gen2"]
+        }
+    },
+    {
         name: "IU",
         img: "Wfz8smb.jpeg",
         opts: {
             group: ["soloist"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "9Muses Jaekyung",
+        img: "SPUJZAO.png",
+        opts: {
+            group: ["9Muses"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Rainbow Jaekyung",
+        img: "bSpTc6d.jpeg",
+        opts: {
+            group: ["Rainbow"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Brown Eyed Girls JeA",
+        img: "6Ap3i2Q.jpeg",
+        opts: {
+            group: ["Brown Eyed Girls"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Fiestar Jei",
+        img: "RKNbiuS.png",
+        opts: {
+            group: ["Fiestar"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "4Minute Jenyer",
+        img: "e0RvTm0.jpeg",
+        opts: {
+            group: ["4Minute"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Stellar Jeon Youl",
+        img: "zldrNFu.png",
+        opts: {
+            group: ["Stellar"],
             gen: ["gen2"]
         }
     },
@@ -188,10 +785,122 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
+        name: "Miss A Jia",
+        img: "KhxYm7P.jpeg",
+        opts: {
+            group: ["Miss A"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Girl's Day Jihae",
+        img: "FRAV4bp.png",
+        opts: {
+            group: ["Girl's Day"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Girl's Day Jiin",
+        img: "gJVat1j.jpeg",
+        opts: {
+            group: ["Girl's Day"],
+            gen: ["gen2"]
+        }
+    },
+    {
         name: "AOA Jimin",
         img: "4uDETkl.jpeg",
         opts: {
             group: ["AOA"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Rainbow Jisook",
+        img: "FK6sA4j.jpeg",
+        opts: {
+            group: ["Rainbow"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Girl's Day Jisun",
+        img: "VwhJdKB.jpeg",
+        opts: {
+            group: ["Girl's Day"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "SPICA Jiwon",
+        img: "XakKbI2.jpeg",
+        opts: {
+            group: ["SPICA"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "T-ara Jiyeon",
+        img: "Okxset2.jpeg",
+        opts: {
+            group: ["T-ara"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Kara Jiyoung Kang",
+        img: "T4A7iLl.jpeg",
+        opts: {
+            group: ["Kara"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Dal\u2605Shabet Jiyul",
+        img: "nY8gfw0.png",
+        opts: {
+            group: ["Dal\u2605Shabet"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Urban Zakapa Jo Hyunah",
+        img: "xeXrRTc.jpeg",
+        opts: {
+            group: ["Urban Zakapa"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "After School Jooyeon",
+        img: "A5bIC9w.jpeg",
+        opts: {
+            group: ["After School"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Sunny Hill Jubi",
+        img: "dhNquru.jpeg",
+        opts: {
+            group: ["Sunny Hill"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Secret Jun Hyo Seong",
+        img: "W2uBc0u.jpeg",
+        opts: {
+            group: ["Secret"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "After School Jungah",
+        img: "opFUnvb.png",
+        opts: {
+            group: ["After School"],
             gen: ["gen2"]
         }
     },
@@ -204,10 +913,82 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
+        name: "Juniel",
+        img: "feVufX2.jpeg",
+        opts: {
+            group: ["soloist"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "After School Kaeun",
+        img: "HxUv65q.png",
+        opts: {
+            group: ["After School"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Dal\u2605Shabet Kaeun",
+        img: "GFb96Kp.jpeg",
+        opts: {
+            group: ["Dal\u2605Shabet"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "After School Kahi",
+        img: "SmrYhQp.png",
+        opts: {
+            group: ["After School"],
+            gen: ["gen2"]
+        }
+    },
+    {
         name: "EXID Kang Hye Yeon",
         img: "cRnrT3V.jpeg",
         opts: {
             group: ["EXID"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Davichi Kang Min Kyung",
+        img: "3Luzslf.jpeg",
+        opts: {
+            group: ["Davichi"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "9Muses Keumjo",
+        img: "OAclbVO.png",
+        opts: {
+            group: ["9Muses"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "SPICA Kim Bo Hyung",
+        img: "C2EYCVQ.jpeg",
+        opts: {
+            group: ["SPICA"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "SeeYa Kim Yeonji",
+        img: "n3v1Ce6.jpeg",
+        opts: {
+            group: ["SeeYa"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Sunny Hill Kota",
+        img: "0ZhMFJR.jpeg",
+        opts: {
+            group: ["Sunny Hill"],
             gen: ["gen2"]
         }
     },
@@ -228,10 +1009,66 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
+        name: "Davichi Lee Haeri",
+        img: "ijdX6ql.jpeg",
+        opts: {
+            group: ["Davichi"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "9Muses LeeSem",
+        img: "lR10SEn.jpeg",
+        opts: {
+            group: ["9Muses"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Lim Jeonghee",
+        img: "OAauOYi.jpeg",
+        opts: {
+            group: ["soloist"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Hellovenus Lime",
+        img: "nWSoes9.png",
+        opts: {
+            group: ["Hellovenus"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Fiestar Linzy",
+        img: "IpTqES7.png",
+        opts: {
+            group: ["Fiestar"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "After School Lizzy",
+        img: "DZutdTF.png",
+        opts: {
+            group: ["After School"],
+            gen: ["gen2"]
+        }
+    },
+    {
         name: "f(x) Luna",
         img: "F6PnQYs.jpeg",
         opts: {
             group: ["f(x)"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Miss A Min",
+        img: "0KDJOOy.jpeg",
+        opts: {
+            group: ["Miss A"],
             gen: ["gen2"]
         }
     },
@@ -244,10 +1081,66 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
+        name: "Girl's Day Minah",
+        img: "Y5Gym6b.jpeg",
+        opts: {
+            group: ["Girl's Day"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Stellar Minhee",
+        img: "G8KNsPe.jpeg",
+        opts: {
+            group: ["Stellar"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Brave Girls Minyoung",
+        img: "8PI1iUL.jpeg",
+        opts: {
+            group: ["Brave Girls"],
+            gen: ["gen2"]
+        }
+    },
+    {
         name: "2NE1 Minzy",
         img: "QV2m2YD.png",
         opts: {
             group: ["2NE1"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Brown Eyed Girls Miryo",
+        img: "BhJL72x.png",
+        opts: {
+            group: ["Brown Eyed Girls"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Sunny Hill Misung",
+        img: "dRZShyr.jpeg",
+        opts: {
+            group: ["Sunny Hill"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "9Muses Moon Hyuna",
+        img: "4wjrf1x.png",
+        opts: {
+            group: ["9Muses"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "NS Yoon-G",
+        img: "GacNRgx.png",
+        opts: {
+            group: ["soloist"],
             gen: ["gen2"]
         }
     },
@@ -268,6 +1161,54 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
+        name: "After School Nana",
+        img: "aEPXgvI.jpeg",
+        opts: {
+            group: ["After School"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Hellovenus Nara",
+        img: "VAkpDrm.png",
+        opts: {
+            group: ["Hellovenus"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "SPICA Narae",
+        img: "8vzrTBv.jpeg",
+        opts: {
+            group: ["SPICA"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Brown Eyed Girls Narsha",
+        img: "qm3vDGi.png",
+        opts: {
+            group: ["Brown Eyed Girls"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Kara Nicole Jung",
+        img: "6NVZxwf.jpeg",
+        opts: {
+            group: ["Kara"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Rainbow Noeul",
+        img: "yYq9pvJ.jpeg",
+        opts: {
+            group: ["Rainbow"],
+            gen: ["gen2"]
+        }
+    },
+    {
         name: "2NE1 Park Bom",
         img: "Wvw6Bix.jpeg",
         opts: {
@@ -276,10 +1217,58 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
+        name: "Kara Park Gyuri",
+        img: "6WKYTcA.jpeg",
+        opts: {
+            group: ["Kara"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "T-ara Qri",
+        img: "rpAmbgO.jpeg",
+        opts: {
+            group: ["T-ara"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "After School Raina",
+        img: "s096Kif.jpeg",
+        opts: {
+            group: ["After School"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "9Muses Rana",
+        img: "E2fcm6C.jpeg",
+        opts: {
+            group: ["9Muses"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "9Muses Ryu Sera",
+        img: "5YhVzpg.png",
+        opts: {
+            group: ["9Muses"],
+            gen: ["gen2"]
+        }
+    },
+    {
         name: "2NE1 Sandara Park",
         img: "3vmY6iW.png",
         opts: {
             group: ["2NE1"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Brave Girls Seoah",
+        img: "su2U2BK.jpeg",
+        opts: {
+            group: ["Brave Girls"],
             gen: ["gen2"]
         }
     },
@@ -300,10 +1289,82 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
+        name: "Hellovenus Seoyoung",
+        img: "4rugp2j.png",
+        opts: {
+            group: ["Hellovenus"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Dal\u2605Shabet Serri",
+        img: "mygXwW4.jpeg",
+        opts: {
+            group: ["Dal\u2605Shabet"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Rainbow Seungah",
+        img: "S6s54kt.png",
+        opts: {
+            group: ["Rainbow"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Kara Seungyeon",
+        img: "5RugHBn.jpeg",
+        opts: {
+            group: ["Kara"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "4Minute Sohyun",
+        img: "my8vZo3.png",
+        opts: {
+            group: ["4Minute"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "9Muses Sojin",
+        img: "6Kyua2G.jpeg",
+        opts: {
+            group: ["9Muses"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Girl's Day Sojin",
+        img: "VkVdhVb.png",
+        opts: {
+            group: ["Girl's Day"],
+            gen: ["gen2"]
+        }
+    },
+    {
         name: "EXID Solji",
         img: "CcQuKCx.jpeg",
         opts: {
             group: ["EXID"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Secret Song Jieun",
+        img: "lRuvgj4.jpeg",
+        opts: {
+            group: ["Secret"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "SeeYa Soomi",
+        img: "YkPhJ32.jpeg",
+        opts: {
+            group: ["SeeYa"],
             gen: ["gen2"]
         }
     },
@@ -316,6 +1377,14 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
+        name: "T-ara Soyeon",
+        img: "wrjNMVE.jpeg",
+        opts: {
+            group: ["T-ara"],
+            gen: ["gen2"]
+        }
+    },
+    {
         name: "Sistar Soyou",
         img: "kYWWowy.jpeg",
         opts: {
@@ -324,10 +1393,82 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
+        name: "After School Soyoung",
+        img: "8PlRaaj.png",
+        opts: {
+            group: ["After School"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Stellar Soyoung",
+        img: "HP78cfK.jpeg",
+        opts: {
+            group: ["Stellar"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Crayon Pop Soyul",
+        img: "Rc8DEkn.png",
+        opts: {
+            group: ["Crayon Pop"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "f(x) Sulli",
+        img: "aB8qobB.png",
+        opts: {
+            group: ["f(x)"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "9Muses Sungah",
+        img: "WbwRjF5.jpeg",
+        opts: {
+            group: ["9Muses"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Secret Sunhwa",
+        img: "DOJIoMW.jpeg",
+        opts: {
+            group: ["Secret"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Wonder Girls Sunmi",
+        img: "0HA5ZPr.jpeg",
+        opts: {
+            group: ["Wonder Girls"],
+            gen: ["gen2"]
+        }
+    },
+    {
         name: "Girls' Generation Sunny",
         img: "wBYhaRw.jpeg",
         opts: {
             group: ["Girls' Generation"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Wonder Girls Sunye",
+        img: "6S6l2ak.png",
+        opts: {
+            group: ["Wonder Girls"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Miss A Suzy",
+        img: "my0Ea9g.jpeg",
+        opts: {
+            group: ["Miss A"],
             gen: ["gen2"]
         }
     },
@@ -348,6 +1489,14 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
+        name: "After School UEE",
+        img: "kko3ZUs.png",
+        opts: {
+            group: ["After School"],
+            gen: ["gen2"]
+        }
+    },
+    {
         name: "EXID Uji",
         img: "nLIt2bQ.png",
         opts: {
@@ -364,10 +1513,114 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
+        name: "Dal\u2605Shabet Viki",
+        img: "6qcfmOJ.jpeg",
+        opts: {
+            group: ["Dal\u2605Shabet"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Crayon Pop Way",
+        img: "gIls0qZ.png",
+        opts: {
+            group: ["Crayon Pop"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Dal\u2605Shabet Woohee",
+        img: "lLTP6r9.jpeg",
+        opts: {
+            group: ["Dal\u2605Shabet"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Rainbow Woori",
+        img: "WTUuW4w.png",
+        opts: {
+            group: ["Rainbow"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Brave Girls Yejin",
+        img: "wyg2jYi.png",
+        opts: {
+            group: ["Brave Girls"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Fiestar Yel",
+        img: "1VZcfM9.jpeg",
+        opts: {
+            group: ["Fiestar"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Hellovenus Yeoreum",
+        img: "sg7G4IP.jpeg",
+        opts: {
+            group: ["Hellovenus"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Fiestar Yezi",
+        img: "7CKCWi4.jpeg",
+        opts: {
+            group: ["Fiestar"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Hellovenus Yoo Ara",
+        img: "WCtTjHt.png",
+        opts: {
+            group: ["Hellovenus"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Brave Girls Yoojin",
+        img: "xJKHQAo.png",
+        opts: {
+            group: ["Brave Girls"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Apink Yookyung",
+        img: "z33MiBf.png",
+        opts: {
+            group: ["Apink"],
+            gen: ["gen2"]
+        }
+    },
+    {
         name: "Girls' Generation Yoona",
         img: "uw1gNJ9.jpeg",
         opts: {
             group: ["Girls' Generation"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Rainbow Yoonhye",
+        img: "BIl6OGo.jpeg",
+        opts: {
+            group: ["Rainbow"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Hellovenus Yooyoung",
+        img: "MNyU2bO.jpeg",
+        opts: {
+            group: ["Hellovenus"],
             gen: ["gen2"]
         }
     },
@@ -380,10 +1633,50 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
+        name: "Kara Youngji",
+        img: "gqoUs82.jpeg",
+        opts: {
+            group: ["Kara"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Younha",
+        img: "JIDpg8x.jpeg",
+        opts: {
+            group: ["soloist"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Wonder Girls Yubin",
+        img: "0ZXbmdS.jpeg",
+        opts: {
+            group: ["Wonder Girls"],
+            gen: ["gen2"]
+        }
+    },
+    {
         name: "AOA Yuna",
         img: "SwByUez.jpeg",
         opts: {
             group: ["AOA"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Brave Girls Yuna",
+        img: "iFIDW5T.jpeg",
+        opts: {
+            group: ["Brave Girls"],
+            gen: ["gen2"]
+        }
+    },
+    {
+        name: "Girl's Day Yura",
+        img: "1BRmv8s.jpeg",
+        opts: {
+            group: ["Girl's Day"],
             gen: ["gen2"]
         }
     },
@@ -412,6 +1705,22 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
+        name: "Ladies' code Ashley",
+        img: "aYxcakV.jpeg",
+        opts: {
+            group: ["Ladies' code"],
+            gen: ["gen3"]
+        }
+    },
+    {
+        name: "Bolbbalgan4",
+        img: "HZIIQEY.jpeg",
+        opts: {
+            group: ["soloist"],
+            gen: ["gen3"]
+        }
+    },
+    {
         name: "WJSN Bona",
         img: "tKXYTSD.jpeg",
         opts: {
@@ -428,10 +1737,66 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
+        name: "April Chaewon",
+        img: "lGTX0QM.jpeg",
+        opts: {
+            group: ["April"],
+            gen: ["gen3"]
+        }
+    },
+    {
+        name: "Busters Chaeyeon",
+        img: "PoRJPyp.jpeg",
+        opts: {
+            group: ["Busters"],
+            gen: ["gen3"]
+        }
+    },
+    {
+        name: "Dia Chaeyeon",
+        img: "ZgJblRe.jpeg",
+        opts: {
+            group: ["Dia"],
+            gen: ["gen3"]
+        }
+    },
+    {
+        name: "Twice Chaeyoung",
+        img: "B1mdidp.jpeg",
+        opts: {
+            group: ["Twice"],
+            gen: ["gen3"]
+        }
+    },
+    {
         name: "WJSN Cheng Xiao",
         img: "yOL4OOz.png",
         opts: {
             group: ["WJSN"],
+            gen: ["gen3"]
+        }
+    },
+    {
+        name: "I.O.I Chung ha",
+        img: "6dAvFeC.jpeg",
+        opts: {
+            group: ["I.O.I"],
+            gen: ["gen3"]
+        }
+    },
+    {
+        name: "Sonamoo D.ana",
+        img: "7pmUTmb.jpeg",
+        opts: {
+            group: ["Sonamoo"],
+            gen: ["gen3"]
+        }
+    },
+    {
+        name: "BESTie Dahye",
+        img: "nCRU50l.png",
+        opts: {
+            group: ["BESTie"],
             gen: ["gen3"]
         }
     },
@@ -484,6 +1849,14 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
+        name: "Weki Meki Doyeon",
+        img: "oLgfQuh.jpeg",
+        opts: {
+            group: ["Weki Meki"],
+            gen: ["gen3"]
+        }
+    },
+    {
         name: "Alice Ej",
         img: "a24mRTW.jpeg",
         opts: {
@@ -500,10 +1873,34 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
+        name: "Weki Meki Elly",
+        img: "0RZY088.jpeg",
+        opts: {
+            group: ["Weki Meki"],
+            gen: ["gen3"]
+        }
+    },
+    {
+        name: "Ladies' code EunB",
+        img: "LCw9ump.jpeg",
+        opts: {
+            group: ["Ladies' code"],
+            gen: ["gen3"]
+        }
+    },
+    {
         name: "CLC Eunbin",
         img: "IoGJjmK.jpeg",
         opts: {
             group: ["CLC"],
+            gen: ["gen3"]
+        }
+    },
+    {
+        name: "Dia Eunchae",
+        img: "1KOuyih.jpeg",
+        opts: {
+            group: ["Dia"],
             gen: ["gen3"]
         }
     },
@@ -516,10 +1913,34 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
+        name: "Dia Eunice",
+        img: "4C3jEjt.jpeg",
+        opts: {
+            group: ["Dia"],
+            gen: ["gen3"]
+        }
+    },
+    {
+        name: "Dia Eunjin",
+        img: "L1N6Ddx.png",
+        opts: {
+            group: ["Dia"],
+            gen: ["gen3"]
+        }
+    },
+    {
         name: "WJSN Eunseo",
         img: "tOUutRB.jpeg",
         opts: {
             group: ["WJSN"],
+            gen: ["gen3"]
+        }
+    },
+    {
+        name: "Pristin Eunwoo",
+        img: "bqdFPUB.png",
+        opts: {
+            group: ["Pristin"],
             gen: ["gen3"]
         }
     },
@@ -540,6 +1961,38 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
+        name: "Pristin Gyeongwon",
+        img: "nXrXa18.png",
+        opts: {
+            group: ["Pristin"],
+            gen: ["gen3"]
+        }
+    },
+    {
+        name: "Gugudan Haebin",
+        img: "AWJi6yX.png",
+        opts: {
+            group: ["Gugudan"],
+            gen: ["gen3"]
+        }
+    },
+    {
+        name: "Laboum Haein",
+        img: "WsWVkNQ.png",
+        opts: {
+            group: ["Laboum"],
+            gen: ["gen3"]
+        }
+    },
+    {
+        name: "Gugudan Hana",
+        img: "vWD6w0L.png",
+        opts: {
+            group: ["Gugudan"],
+            gen: ["gen3"]
+        }
+    },
+    {
         name: "Dreamcatcher Handong",
         img: "VahvT6i.jpeg",
         opts: {
@@ -552,6 +2005,22 @@ dataSet[dataSetVersion].characterData = [
         img: "Prw6zC8.jpeg",
         opts: {
             group: ["soloist"],
+            gen: ["gen3"]
+        }
+    },
+    {
+        name: "Sonamoo Hezz",
+        img: "UkRdSmt.jpeg",
+        opts: {
+            group: ["Sonamoo"],
+            gen: ["gen3"]
+        }
+    },
+    {
+        name: "Dia Huihyeon",
+        img: "MBXvrak.jpeg",
+        opts: {
+            group: ["Dia"],
             gen: ["gen3"]
         }
     },
@@ -572,10 +2041,34 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
+        name: "Gugudan Hyeyeon",
+        img: "vmszKBK.png",
+        opts: {
+            group: ["Gugudan"],
+            gen: ["gen3"]
+        }
+    },
+    {
         name: "Oh My Girl Hyojung",
         img: "bLDLeLv.jpeg",
         opts: {
             group: ["Oh My Girl"],
+            gen: ["gen3"]
+        }
+    },
+    {
+        name: "Busters Hyungseo",
+        img: "76eOWOk.png",
+        opts: {
+            group: ["Busters"],
+            gen: ["gen3"]
+        }
+    },
+    {
+        name: "April Hyunjoo",
+        img: "CLyOCbx.png",
+        opts: {
+            group: ["April"],
             gen: ["gen3"]
         }
     },
@@ -588,10 +2081,26 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
+        name: "Momoland Jane",
+        img: "c4Abx8D.jpeg",
+        opts: {
+            group: ["Momoland"],
+            gen: ["gen3"]
+        }
+    },
+    {
         name: "Blackpink Jennie",
         img: "oRi9ZfP.jpeg",
         opts: {
             group: ["Blackpink"],
+            gen: ["gen3"]
+        }
+    },
+    {
+        name: "Dia Jenny",
+        img: "6uCDTP1.jpeg",
+        opts: {
+            group: ["Dia"],
             gen: ["gen3"]
         }
     },
@@ -628,6 +2137,14 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
+        name: "Lovelyz Jin",
+        img: "MjnB8Ot.jpeg",
+        opts: {
+            group: ["Lovelyz"],
+            gen: ["gen3"]
+        }
+    },
+    {
         name: "Oh My Girl JinE",
         img: "TSdPLQU.jpeg",
         opts: {
@@ -636,10 +2153,50 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
+        name: "April Jinsol",
+        img: "rGtmHUL.jpeg",
+        opts: {
+            group: ["April"],
+            gen: ["gen3"]
+        }
+    },
+    {
+        name: "Laboum Jinye",
+        img: "Oxl5XAy.jpeg",
+        opts: {
+            group: ["Laboum"],
+            gen: ["gen3"]
+        }
+    },
+    {
         name: "Blackpink Jisoo",
         img: "eVViRoz.jpeg",
         opts: {
             group: ["Blackpink"],
+            gen: ["gen3"]
+        }
+    },
+    {
+        name: "Busters Jisoo",
+        img: "feiCXXG.png",
+        opts: {
+            group: ["Busters"],
+            gen: ["gen3"]
+        }
+    },
+    {
+        name: "Lovelyz Jisoo",
+        img: "TaZnCBd.png",
+        opts: {
+            group: ["Lovelyz"],
+            gen: ["gen3"]
+        }
+    },
+    {
+        name: "KARD Jiwoo",
+        img: "5tG01k3.jpeg",
+        opts: {
+            group: ["KARD"],
             gen: ["gen3"]
         }
     },
@@ -660,6 +2217,14 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
+        name: "Dia Jueun",
+        img: "ncYfGGU.jpeg",
+        opts: {
+            group: ["Dia"],
+            gen: ["gen3"]
+        }
+    },
+    {
         name: "Alice Karin",
         img: "6wA6ahq.jpeg",
         opts: {
@@ -668,10 +2233,74 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
+        name: "Lovelyz Kei",
+        img: "0dpd0Sc.png",
+        opts: {
+            group: ["Lovelyz"],
+            gen: ["gen3"]
+        }
+    },
+    {
+        name: "Sonamoo Kim Dohee",
+        img: "8BxW2I1.jpeg",
+        opts: {
+            group: ["Sonamoo"],
+            gen: ["gen3"]
+        }
+    },
+    {
+        name: "Pristin Kyla",
+        img: "A00uB8p.jpeg",
+        opts: {
+            group: ["Pristin"],
+            gen: ["gen3"]
+        }
+    },
+    {
+        name: "Pristin Kyulkyung",
+        img: "H4Hz5VK.png",
+        opts: {
+            group: ["Pristin"],
+            gen: ["gen3"]
+        }
+    },
+    {
+        name: "Akmu Lee Suhyun",
+        img: "YRy5K03.jpeg",
+        opts: {
+            group: ["Akmu"],
+            gen: ["gen3"]
+        }
+    },
+    {
+        name: "Lovelyz Lee Sujeong",
+        img: "Euc9c5T.jpeg",
+        opts: {
+            group: ["Lovelyz"],
+            gen: ["gen3"]
+        }
+    },
+    {
         name: "Blackpink Lisa",
         img: "gTMe2BZ.jpeg",
         opts: {
             group: ["Blackpink"],
+            gen: ["gen3"]
+        }
+    },
+    {
+        name: "Weki Meki Lua",
+        img: "AAIefLr.jpeg",
+        opts: {
+            group: ["Weki Meki"],
+            gen: ["gen3"]
+        }
+    },
+    {
+        name: "Weki Meki Lucy",
+        img: "qVBzkZB.jpeg",
+        opts: {
+            group: ["Weki Meki"],
             gen: ["gen3"]
         }
     },
@@ -692,6 +2321,22 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
+        name: "Lovelyz Mijoo",
+        img: "GO76GvH.jpeg",
+        opts: {
+            group: ["Lovelyz"],
+            gen: ["gen3"]
+        }
+    },
+    {
+        name: "Gugudan Mimi",
+        img: "n4nSp5k.png",
+        opts: {
+            group: ["Gugudan"],
+            gen: ["gen3"]
+        }
+    },
+    {
         name: "Oh My Girl Mimi",
         img: "GNk3VxJ.jpeg",
         opts: {
@@ -700,10 +2345,50 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
+        name: "Gugudan Mina",
+        img: "7o0H9Nr.jpeg",
+        opts: {
+            group: ["Gugudan"],
+            gen: ["gen3"]
+        }
+    },
+    {
         name: "Twice Mina",
         img: "0dMaUgi.jpeg",
         opts: {
             group: ["Twice"],
+            gen: ["gen3"]
+        }
+    },
+    {
+        name: "Sonamoo Minjae",
+        img: "gfHBHrx.jpeg",
+        opts: {
+            group: ["Sonamoo"],
+            gen: ["gen3"]
+        }
+    },
+    {
+        name: "Busters Minji",
+        img: "7edXXtP.jpeg",
+        opts: {
+            group: ["Busters"],
+            gen: ["gen3"]
+        }
+    },
+    {
+        name: "Busters Minjung",
+        img: "qA8QcCK.png",
+        opts: {
+            group: ["Busters"],
+            gen: ["gen3"]
+        }
+    },
+    {
+        name: "Pristin Minkyeung",
+        img: "y3wT8vP.jpeg",
+        opts: {
+            group: ["Pristin"],
             gen: ["gen3"]
         }
     },
@@ -724,6 +2409,22 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
+        name: "April Naeun",
+        img: "Jix84A3.png",
+        opts: {
+            group: ["April"],
+            gen: ["gen3"]
+        }
+    },
+    {
+        name: "Sonamoo Nahyun",
+        img: "b9hrARV.png",
+        opts: {
+            group: ["Sonamoo"],
+            gen: ["gen3"]
+        }
+    },
+    {
         name: "Momoland Nancy",
         img: "Q91XfYi.jpeg",
         opts: {
@@ -740,10 +2441,34 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
+        name: "Gugudan Nayoung",
+        img: "VfTZREV.png",
+        opts: {
+            group: ["Gugudan"],
+            gen: ["gen3"]
+        }
+    },
+    {
+        name: "Pristin Nayoung",
+        img: "Z1yUB5o.jpeg",
+        opts: {
+            group: ["Pristin"],
+            gen: ["gen3"]
+        }
+    },
+    {
         name: "Momoland Nayun",
         img: "bYOICFA.jpeg",
         opts: {
             group: ["Momoland"],
+            gen: ["gen3"]
+        }
+    },
+    {
+        name: "Sonamoo New Sun",
+        img: "QbSOXTl.jpeg",
+        opts: {
+            group: ["Sonamoo"],
             gen: ["gen3"]
         }
     },
@@ -756,10 +2481,50 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
+        name: "Punch",
+        img: "UPzn0lC.jpeg",
+        opts: {
+            group: ["soloist"],
+            gen: ["gen3"]
+        }
+    },
+    {
+        name: "April Rachel",
+        img: "xhHVsT7.jpeg",
+        opts: {
+            group: ["April"],
+            gen: ["gen3"]
+        }
+    },
+    {
+        name: "Ladies' code RiSe",
+        img: "hskde0N.jpeg",
+        opts: {
+            group: ["Ladies' code"],
+            gen: ["gen3"]
+        }
+    },
+    {
+        name: "Weki Meki Rina",
+        img: "KfrW86f.jpeg",
+        opts: {
+            group: ["Weki Meki"],
+            gen: ["gen3"]
+        }
+    },
+    {
         name: "Blackpink Ros\u00e9",
         img: "P0NEqEM.jpeg",
         opts: {
             group: ["Blackpink"],
+            gen: ["gen3"]
+        }
+    },
+    {
+        name: "Lovelyz Ryu Sujeong",
+        img: "Ivby2Av.png",
+        opts: {
+            group: ["Lovelyz"],
             gen: ["gen3"]
         }
     },
@@ -780,6 +2545,30 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
+        name: "Weki Meki Sei",
+        img: "jSqz3aa.jpeg",
+        opts: {
+            group: ["Weki Meki"],
+            gen: ["gen3"]
+        }
+    },
+    {
+        name: "Busters Seira",
+        img: "31YFjob.jpeg",
+        opts: {
+            group: ["Busters"],
+            gen: ["gen3"]
+        }
+    },
+    {
+        name: "Gugudan Sejeong",
+        img: "c8lddJe.jpeg",
+        opts: {
+            group: ["Gugudan"],
+            gen: ["gen3"]
+        }
+    },
+    {
         name: "WJSN Seola",
         img: "orAL7JJ.jpeg",
         opts: {
@@ -792,6 +2581,14 @@ dataSet[dataSetVersion].characterData = [
         img: "W06kTIF.jpeg",
         opts: {
             group: ["Red Velvet"],
+            gen: ["gen3"]
+        }
+    },
+    {
+        name: "Oh My Girl Seunghee",
+        img: "Q50ROdm.jpeg",
+        opts: {
+            group: ["Oh My Girl"],
             gen: ["gen3"]
         }
     },
@@ -828,6 +2625,22 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
+        name: "I.O.I Sohye",
+        img: "231Gyzs.png",
+        opts: {
+            group: ["I.O.I"],
+            gen: ["gen3"]
+        }
+    },
+    {
+        name: "Ladies' code Sojung",
+        img: "q38dheA.jpeg",
+        opts: {
+            group: ["Ladies' code"],
+            gen: ["gen3"]
+        }
+    },
+    {
         name: "Mamamoo Solar",
         img: "U8TvcPF.jpeg",
         opts: {
@@ -836,10 +2649,34 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
+        name: "Laboum Solbin",
+        img: "qwnO8JO.jpeg",
+        opts: {
+            group: ["Laboum"],
+            gen: ["gen3"]
+        }
+    },
+    {
+        name: "I.O.I Somi",
+        img: "gH5W882.jpeg",
+        opts: {
+            group: ["I.O.I"],
+            gen: ["gen3"]
+        }
+    },
+    {
         name: "KARD Somin",
         img: "D4NphCi.jpeg",
         opts: {
             group: ["KARD"],
+            gen: ["gen3"]
+        }
+    },
+    {
+        name: "Dia Somyi",
+        img: "JuL4LPs.jpeg",
+        opts: {
+            group: ["Dia"],
             gen: ["gen3"]
         }
     },
@@ -1004,7 +2841,23 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Alice Yeonje",
+        name: "Lovelyz Yein",
+        img: "0eNJcPU.jpeg",
+        opts: {
+            group: ["Lovelyz"],
+            gen: ["gen3"]
+        }
+    },
+    {
+        name: "April Yena",
+        img: "m5fVbg3.png",
+        opts: {
+            group: ["April"],
+            gen: ["gen3"]
+        }
+    },
+    {
+        name: "Alice Yeonjae",
         img: "10ZPchD.jpeg",
         opts: {
             group: ["Alice"],
