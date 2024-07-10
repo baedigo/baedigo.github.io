@@ -540,7 +540,6 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-    {
         name: "Dreamcatcher Handong",
         img: "VahvT6i.jpeg",
         opts: {
